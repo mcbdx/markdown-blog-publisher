@@ -25,3 +25,8 @@ I use this CLI to manage content for my personal platform, allowing me to write 
 ├── generate_html.py       # Markdown → HTML + metadata extractor
 ├── publish_utils.py       # Utilities to publish data to DB
 ├── publish_blog.py        # Main CLI logic
+```
+---
+## Sample Usage
+`python publish_blog.py -f content/sample.md --dry-run`
+
